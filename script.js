@@ -15,7 +15,7 @@
     
     document.addEventListener('DOMContentLoaded', function() {
     // Your code to run after the DOM is ready
-    var datalink_json = undefined
+    var datalink_json = {}
 
 
     fetch('https://github.com/saipulipoel/mangalink/blob/main/data.json')
