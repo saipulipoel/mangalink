@@ -34,7 +34,7 @@ body {
     -webkit-tap-highlight-color: white;
 }
 
-#userName {
+/* #userName {
     color: var(--accentColor);
     font-size: 1rem;
     font-weight: bold;
@@ -44,7 +44,14 @@ body {
     width: 100%;
     text-align: center;
     text-decoration: none;
+} */
+#userName {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
 }
+
 
 #links {
     max-width: 675px;
@@ -81,6 +88,19 @@ body {
 .link:active {
     background-color: var(--accentColor);
     color: var(--bgColor);
+}
+
+#listing {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+    position: relative;
+    color: var(--accentColor);
+    font-size: 1rem;
+    display: block;
+    font-family: var(--font);
+    text-align: center;
 }
 
 #hashtag {
