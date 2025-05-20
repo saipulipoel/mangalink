@@ -1,14 +1,14 @@
 const main_url = {
     mangadex: ["https://mangadex.org/title/"],
     batoto: [
-        "https://bato.to/",
-        "https://bato.si/",
-        "https://zbato.org/",
-        "https://zbato.net/",
-        "https://mto.to/",
-        "https://batotwo.com/",
-        "https://xbato.org/",
-        "https://comiko.org/"
+        "https://bato.to/title/",
+        "https://bato.si/title/",
+        "https://zbato.org/title/",
+        "https://zbato.net/title/",
+        "https://mto.to/title/",
+        "https://batotwo.com/title/",
+        "https://xbato.org/title/",
+        "https://comiko.org/title/"
     ]
 }
 
@@ -42,8 +42,10 @@ document.addEventListener('DOMContentLoaded', function () {
                         </a>`;
             }
 
+            const mirror_title = document.getElementById("idxu");
             const linkdiv = document.getElementById("links");
             linkdiv.innerHTML = html;
+            mirror_title.innerHTML = title;
         })
         .catch(error => {
             console.error('Error fetching JSON:', error);

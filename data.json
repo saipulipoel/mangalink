@@ -1,6 +1,10 @@
 {
-        "maydare": {
-            "mangadex": "9e2707b8-b723-41de-a608-4e4d9ce2f99c",
-            "batoto": "series/188745/"
-        }
+    "maydare-tensei-monogatari": {
+        "mangadex": "9e2707b8-b723-41de-a608-4e4d9ce2f99c",
+        "batoto": "188745"
+    },
+    "blue-archive-game-kaihatsubu": {
+        "mangadex": "99e883fd-04f6-449b-ab23-1d904695d272",
+        "batoto": "188866"
     }
+}
