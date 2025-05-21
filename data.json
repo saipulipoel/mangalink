@@ -1,10 +1,114 @@
 {
-    "maydare-tensei-monogatari": {
-        "mangadex": "9e2707b8-b723-41de-a608-4e4d9ce2f99c",
-        "batoto": "188745"
+    "1": {
+        "name": "Maydare Tensei Monogatari: Kono Sekai de Ichiban Warui Majo",
+        "sites_data":{
+            "mangadex": "9e2707b8-b723-41de-a608-4e4d9ce2f99c",
+            "batoto": "188745"
+        }
     },
-    "blue-archive-game-kaihatsubu": {
-        "mangadex": "99e883fd-04f6-449b-ab23-1d904695d272",
-        "batoto": "188866"
+    "2": {
+        "name": "Blue Archive: Game Kaihatsubu Dai Bouken!",
+        "sites_data":{
+            "mangadex": "99e883fd-04f6-449b-ab23-1d904695d272",
+            "batoto": "188866"
+        }
+    },
+    "3": {
+        "name": "Nokori Ichinichi de Hametsu Flag Zenbu Heshiorimasu: Zamaa RTA Kiroku 24Hr",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": "188913"
+        }
+    },
+    "4": {
+        "name": "Matsurika Kanriden ~Koukyuu Jokan, Kimagure Koutei ni Misomerare~",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": "188917"
+        }
+    },
+    "5": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "6": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "7": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "8": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "9": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "10": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "11": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "12": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "13": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "14": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "15": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
+    },
+    "16": {
+        "name": "",
+        "sites_data":{
+            "mangadex": "",
+            "batoto": ""
+        }
     }
 }
