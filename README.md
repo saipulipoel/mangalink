@@ -1,6 +1,6 @@
 website buat provide link mirror manga by id
 
-- [List Garapan](https://saipulipoel.github.io/mangalink?id=1)
+- [List Garapan](https://saipulipoel.github.io/mangalink)
 
 1. [Maydare Tensei Monogatari](https://saipulipoel.github.io/mangalink?id=1)
 2. [Blue Archive: Game Kaihatsubu Daibouken!](https://saipulipoel.github.io/mangalink?id=2)
