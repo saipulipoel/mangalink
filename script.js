@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const sites_data = datalink_json[id]["sites_data"];
                 const title = datalink_json[id]["name"]
                 mirror_title.innerHTML = `Mirror Link ${title} :`;
-                garapandiv.hidden = false
+                garapandiv.style.display = "block"; 
                 for (const site_name in sites_data) {
                     const site_data = sites_data[site_name];
 
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 }
             } else {
-                garapandiv.hidden = true
+                garapandiv.style.display = "none"; 
                 if(id==null || id==undefined || id==""){
                     mirror_title.innerHTML = "List Garapan :";
                     for (const id_garap in datalink_json){
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }else{
                     mirror_title.innerHTML = "Link tidak ditemukan"
                     html += `<a class="link" href="https://saipulipoel.github.io/mangalink">
-                                <i class="fas fa-linkedin">&nbsp;</i>Lihat List Garapan
+                                <i class="fas fa-book">&nbsp;</i>Lihat List Garapan
                             </a>`;
                 }
             }
