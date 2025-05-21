@@ -60,6 +60,13 @@ body {
     margin: 27px auto;
 }
 
+#garapan {
+    max-width: 325px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
 .link {
     position: relative;
     background-color: transparent;

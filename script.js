@@ -16,36 +16,52 @@ document.addEventListener('DOMContentLoaded', function () {
     let datalink_json = {};
 
     fetch('https://raw.githubusercontent.com/saipulipoel/mangalink/main/data.json')
+    // fetch('data.json', { mode: 'no-cors'})
         .then(response => response.json())
         .then(data => {
             datalink_json = data;
 
             let html = "";
             const urlParams = new URLSearchParams(window.location.search);
-            const title = urlParams.get('title');
+            const id = urlParams.get('id');
+            const mirror_title = document.getElementById("idxu");
+            const garapandiv = document.getElementById("garapan")
 
-            if (Object.hasOwn(datalink_json, title)) {
-                const sites = datalink_json[title];
-
-                for (const site_name in sites) {
-                    const site_data = sites[site_name];
+            if (Object.hasOwn(datalink_json, id)) {
+                const sites_data = datalink_json[id]["sites_data"];
+                const title = datalink_json[id]["name"]
+                mirror_title.innerHTML = `Mirror Link ${title} :`;
+                garapandiv.hidden = false
+                for (const site_name in sites_data) {
+                    const site_data = sites_data[site_name];
 
                     for (const url of main_url[site_name]) {
-                        html += `<a class="link" href="${url + site_data}" target="_blank">
-                            <i class="fab fa-external-link">&nbsp;</i>${url + site_data}
-                        </a>`;
+                        if(site_data != "" && site_data != null && site_data != undefined){
+                            html += `<a class="link" href="${url + site_data}" target="_blank">
+                                <i class="fas fa-external-link-alt">&nbsp;</i>${url + site_data}
+                            </a>`;
+                        }
                     }
                 }
             } else {
-                html += `<a class="link" href="https://www.facebook.com/pantectranslation" target="_blank">
-                            <i class="fab fa-facebook">&nbsp;</i>Link tidak ditemukan, kembali ke facebook
-                        </a>`;
+                garapandiv.hidden = true
+                if(id==null || id==undefined || id==""){
+                    mirror_title.innerHTML = "List Garapan :";
+                    for (const id_garap in datalink_json){
+                        html += `<a class="link" href="https://saipulipoel.github.io/mangalink?id=${id_garap}">
+                                <i class="fas fa-book-open">&nbsp;</i>${datalink_json[id_garap]["name"]}
+                            </a>`;
+                    }
+                }else{
+                    mirror_title.innerHTML = "Link tidak ditemukan"
+                    html += `<a class="link" href="https://saipulipoel.github.io/mangalink">
+                                <i class="fas fa-linkedin">&nbsp;</i>Lihat List Garapan
+                            </a>`;
+                }
             }
 
-            const mirror_title = document.getElementById("idxu");
             const linkdiv = document.getElementById("links");
             linkdiv.innerHTML = html;
-            mirror_title.innerHTML = title;
         })
         .catch(error => {
             console.error('Error fetching JSON:', error);
