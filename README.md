@@ -1,4 +1,4 @@
-website buat provide link mirror manga by id
+website buat provide link mirror manga by self generated id
 
 - [List Garapan](https://saipulipoel.github.io/mangalink)
 
@@ -16,6 +16,6 @@ website buat provide link mirror manga by id
 12. [Dokushin Kizoku wa Isekai wo Ouka Suru](https://saipulipoel.github.io/mangalink?id=12)
 13. [Yarinaoshi Reijou wa Ryuutei Heika wo Kouryaku-chuu](https://saipulipoel.github.io/mangalink?id=13)
 14. [Doteihen Reijou ni Hyoui Shita 800-nen Mae no Akujo wa Hissori Seishun o Tanoshinde Iru](https://saipulipoel.github.io/mangalink?id=14)
-15. [Oji Tensei ~Akuyaku Reijou no Kareinaru Seikatsu~](https://saipulipoel.github.io/mangalink?id=15)
+15. [Oji Tensei ~Akuyaku Reijou no Kareinaru Seikatsu](https://saipulipoel.github.io/mangalink?id=15)
 16. [Shuuen no Majo to Sekai no Tabi](https://saipulipoel.github.io/mangalink?id=16)
 
