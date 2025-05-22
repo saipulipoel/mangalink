@@ -3,12 +3,14 @@ const main_url = {
     batoto: [
         "https://bato.to/title/",
         "https://bato.si/title/",
-        "https://zbato.org/title/",
-        "https://zbato.net/title/",
-        "https://mto.to/title/",
         "https://batotwo.com/title/",
+        "https://comiko.org/title/",
+        "https://fto.to/title/",
+        "https://mto.to/title/",
+        "https://wto.to/title/",
         "https://xbato.org/title/",
-        "https://comiko.org/title/"
+        "https://zbato.net/title/",
+        "https://zbato.org/title/"
     ]
 }
 
